@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../heroSection/HeroSection";
 import LatestNews from "../latestNews/LatestNews";
 import MostRead from "../mostRead/MostRead";
+import NewsLetter from "../newsLetter/NewsLetter";
 
 const MainSection = () => {
   return (
@@ -10,6 +11,7 @@ const MainSection = () => {
         <HeroSection />
         <LatestNews />
         <MostRead />
+        <NewsLetter />
       </div>
     </div>
   );

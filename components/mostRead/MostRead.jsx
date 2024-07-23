@@ -5,7 +5,7 @@ import { IoBeakerOutline } from "react-icons/io5";
 
 const MostRead = () => {
   return (
-    <section className="mt-[50px] max-w-[1400px] mx-auto mb-8">
+    <section className="mt-[50px] max-w-[1400px] mx-auto mb-[50px]">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-xl font-bold text-gray-900">Most Read</h2>
         <a href="#" className="text-red-600">
