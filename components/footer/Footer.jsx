@@ -1,8 +1,8 @@
-import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mt-[100px]">
+    <div>
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row md:justify-between">
@@ -14,18 +14,18 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400">
+              <Link href="#" className="text-gray-400">
                 Início
-              </a>
-              <a href="#" className="text-gray-400">
+              </Link>
+              <Link href="#" className="text-gray-400">
                 Blog
-              </a>
-              <a href="#" className="text-gray-400">
+              </Link>
+              <Link href="#" className="text-gray-400">
                 Quem somos
-              </a>
-              <a href="#" className="text-gray-400">
+              </Link>
+              <Link href="#" className="text-gray-400">
                 Contato
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-8 text-center text-gray-400">
