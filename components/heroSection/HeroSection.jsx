@@ -3,7 +3,7 @@ import { FaNetworkWired } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className="px-4 py-8 bg-gray-50">
+    <div className="w-full mx-auto px-4 py-8 bg-gray-50">
       <section className="text-center mb-8">
         <h2 className="text-sm font-medium text-gray-600">
           WELCOME TO BULETIN
@@ -28,7 +28,7 @@ const HeroSection = () => {
         </p>
       </section>
       <section className="mb-8">
-        <div className="flex flex-col md:flex-row md:space-x-6">
+        <div className="flex flex-col max-w-[1400px] mx-auto md:flex-row md:space-x-6">
           <Image
             src="/jw_4.jpg"
             width={1000}

@@ -8,7 +8,7 @@ const Navbar = () => {
       <header className="flex items-center justify-between max-w-[1400px] mx-auto">
         <div className="flex items-center space-x-4">
           {/*TODO: Inserir logomarca no lugar do Buletin */}
-          <h1 className="text-2xl font-bold text-red-600">Buletin</h1>
+          <h1 className="text-2xl font-bold text-red-600">Neno&apos;s</h1>
           <nav className="hidden space-x-4 md:flex">
             <a href="#" className="text-gray-600">
               Início

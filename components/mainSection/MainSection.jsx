@@ -6,7 +6,7 @@ import MostRead from "../mostRead/MostRead";
 const MainSection = () => {
   return (
     <div className="w-full">
-      <div className="max-w-[1400px] mx-auto">
+      <div className="mx-auto">
         <HeroSection />
         <LatestNews />
         <MostRead />
