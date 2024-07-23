@@ -1,6 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -10,18 +10,18 @@ const Navbar = () => {
           {/*TODO: Inserir logomarca no lugar do Buletin */}
           <h1 className="text-2xl font-bold text-red-600">Neno&apos;s</h1>
           <nav className="hidden space-x-4 md:flex">
-            <a href="#" className="text-gray-600">
+            <Link href="#" className="text-gray-600">
               Início
-            </a>
-            <a href="#" className="text-gray-600">
+            </Link>
+            <Link href="#" className="text-gray-600">
               Blog
-            </a>
-            <a href="#" className="text-gray-600">
+            </Link>
+            <Link href="#" className="text-gray-600">
               Quem somos
-            </a>
-            <a href="#" className="text-gray-600">
+            </Link>
+            <Link href="#" className="text-gray-600">
               Contato
-            </a>
+            </Link>
           </nav>
         </div>
         <div className="flex items-center space-x-4">
